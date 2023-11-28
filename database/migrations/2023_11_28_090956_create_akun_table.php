@@ -11,13 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('sambutan', function (Blueprint $table) {
-            $table->integer('id_sambutan', true);
+        Schema::create('akun', function (Blueprint $table) {
+            $table->integer('id_akun', true);
             $table->integer('kode_sekolah');
-            $table->string('kepala_sekolah', 60);
-            $table->string('wakil_kepala_sekolah', 60);
-            $table->string('ketua_osis', 60);
-            $table->text('foto_sambutan');
+            $table->string('username', 60);
+            $table->string('password', 60);
+            $table->enum('role', ['pemimpin_bts', 'admin']);
 
             // Foreign Key
 
@@ -31,6 +30,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('sambutan');
+        Schema::dropIfExists('akun');
     }
 };
