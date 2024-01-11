@@ -1,3 +1,5 @@
+@extends('layouts.layout')
+@section('content')
 <!doctype html>
 <html lang="en">
 
