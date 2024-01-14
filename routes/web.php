@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\DataController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,3 +18,5 @@ use App\Http\Controllers\AuthController;
 Route::get('/', [AuthController::class, 'index'])->name('login');
 Route::post('/', [AuthController::class, 'authenticated']);
 Route::get('/logout', [AuthController::class, 'logout']);
+
+Route::get('/kategori-data', [DataController::class, 'category']);
