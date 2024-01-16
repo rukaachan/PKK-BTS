@@ -17,4 +17,9 @@ class AuthController extends Controller
     {
         
     }
+
+    public function home()
+    {
+        return view('login.home');
+    }
 }

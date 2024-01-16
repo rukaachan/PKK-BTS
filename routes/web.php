@@ -15,8 +15,10 @@ use App\Http\Controllers\DataController;
 |
 */
 
-Route::get('/', [AuthController::class, 'index'])->name('login');
-Route::post('/', [AuthController::class, 'authenticated']);
+Route::get('/login', [AuthController::class, 'index'])->name('login');
+Route::post('/login', [AuthController::class, 'authenticated']);
 Route::get('/logout', [AuthController::class, 'logout']);
+
+Route::get('/', [AuthController::class, 'home']);
 
 Route::get('/kategori-data', [DataController::class, 'category']);
