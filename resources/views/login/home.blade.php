@@ -12,7 +12,7 @@
 <body>
 
     <main class="h-screen flex flex-wrap overflow-hidden relative">
-        <img src="{{ asset('assets/vector_left.png') }}"
+        <img src="{{ asset('assets/tirai_merah_kiri.png') }}"
             class="absolute left-0 top-1/2 transform -translate-y-1/2 z-20 h-full" />
 
         <div class="relative w-full">
@@ -52,7 +52,7 @@
                 class="absolute right-0 top-1/2 transform -translate-y-1/2 z-20 h-1/4" />
         </div>
 
-        <img src="{{ asset('assets/vector_right.png') }}"
+        <img src="{{ asset('assets/tirai_merah_kanan.png') }}"
             class="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 h-full" />
 
     </main>
