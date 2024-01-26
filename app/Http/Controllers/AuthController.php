@@ -20,6 +20,14 @@ class AuthController extends Controller
 
     public function home()
     {
-        return view('login.home');
+        return view('bts.home');
+    }
+    public function foto_murid()
+    {
+        return view('bts.foto_murid');
+    }
+    public function about()
+    {
+        return view('about.index');
     }
 }

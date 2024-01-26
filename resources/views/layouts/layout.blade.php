@@ -38,7 +38,7 @@
                 Data
                 <div class="tooltip-arrow" data-popper-arrow></div>
             </div>
-            <a href="">
+            <a href="/">
                 <button type="button" data-tooltip-target="tooltip-bts" data-tooltip-placement="left"
                     class="flex justify-center items-center w-[52px] h-[52px] bg-darkRed hover:bg-red-900 text-white rounded-full border mb-2">
                     <svg class="w-6 h-6 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +54,7 @@
                 BTS
                 <div class="tooltip-arrow" data-popper-arrow></div>
             </div>
-            <a href="">
+            <a href="/about">
                 <button type="button" data-tooltip-target="tooltip-about" data-tooltip-placement="left"
                     class="flex justify-center items-center w-[52px] h-[52px] bg-darkRed hover:bg-red-900 text-white rounded-full border mb-2">
                     <svg class="w-6 h-6 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"

@@ -20,5 +20,7 @@ Route::post('/login', [AuthController::class, 'authenticated']);
 Route::get('/logout', [AuthController::class, 'logout']);
 
 Route::get('/', [AuthController::class, 'home']);
+Route::get('/foto_murid', [AuthController::class, 'foto_murid']);
+Route::get('/about', [AuthController::class, 'about']);
 
 Route::get('/kategori-data', [DataController::class, 'category']);
