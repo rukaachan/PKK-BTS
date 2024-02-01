@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 @section('content')
-    <div class="flex items-center justify-center h-screen overflow-hidden relative" style="background-color: #590000">
+    <section class="flex items-center justify-center h-screen overflow-hidden relative bg-[#590000]">
         <img src="{{ asset('assets/tirai_merah_kiri.png') }}"
             class="absolute left-0 top-1/2 transform -translate-y-1/2 h-full" />
 
@@ -80,5 +80,5 @@
 
         <img src="{{ asset('assets/tirai_hitam_kanan.png') }}"
             class="absolute right-0 top-1/2 transform -translate-y-1/2 h-full z-0" />
-    </div>
+    </section>
 @endsection

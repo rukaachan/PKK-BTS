@@ -1,19 +1,7 @@
 @extends('layouts.layout')
+@section('title', 'Home')
 @section('content')
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
-    <title>Home</title>
-</head>
-
-<body>
-
-    <main class="h-screen flex flex-wrap overflow-hidden relative">
+    <section class="h-screen flex flex-wrap overflow-hidden relative">
         <img src="{{ asset('assets/tirai_merah_kiri.png') }}"
             class="absolute left-0 top-1/2 transform -translate-y-1/2 z-20 h-full" />
 
@@ -57,9 +45,4 @@
         <img src="{{ asset('assets/tirai_merah_kanan.png') }}"
             class="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 h-full" />
 
-    </main>
-
-
-</body>
-
-</html>
+    </section>

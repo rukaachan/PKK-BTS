@@ -15,6 +15,11 @@ class DataController extends Controller
         return view("data.category");
     }
 
+    public function kelolaData()
+    {
+        return view("data.kelola");
+    }
+
     /**
      * Show the form for creating a new resource.
      */

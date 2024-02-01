@@ -1,7 +1,6 @@
 @extends('layouts.layout')
+@section('title', 'Kategori Data')
 @section('content')
-
-
     <section class=" flex items-center justify-center h-screen overflow-hidden relative" style="background-color: #590000">
         <img src="{{ asset('assets/tirai_merah_kiri.png') }}"
             class="absolute left-0 top-1/2 transform -translate-y-1/2 z-20 h-full" />
